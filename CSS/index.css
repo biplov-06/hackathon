@@ -188,7 +188,7 @@ body {
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:992px) {
   body {
     padding-left: 20px;
     padding-right: 20px;
@@ -199,6 +199,12 @@ body {
   .nav-bar {
     gap: 10px;
     align-items: flex-start;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .mobile-bar{
+    display: block;
   }
   .content ul{
     font-size: 16px;
@@ -283,4 +289,17 @@ background-color: black !important;
     padding: 6px 12px;
     font-size: 14px;
   }
+}
+.flex-column{
+  width: 300px;
+  border: 1px solid red;
+  margin-top: 10px;
+}
+.base_board{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.nav-link{
+  color: white;
 }
